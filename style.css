@@ -1,0 +1,86 @@
+.header {
+  background-color: rgb(13, 211, 13);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+.navbar-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.navbar-link {
+  display: block;
+  color: white;
+  font-size: 20px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  transition: 
+  background-color 0.3s;
+}
+.navbar-link:hover {
+  background-color: rgb(6, 6, 81);
+  transform: scale(1.1) translateY(-3px);
+}
+.bg {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(3, 48, 3);
+  background-image: url("images/for.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+body {
+  margin: 0;
+}
+.container {
+  width: min(100% - 40px, 992px);
+  margin-inline: auto;
+}
+.text {
+  color: white;
+}
+.part {
+color: white;
+padding: 5px 10px;
+border-radius: 5px;
+}
+.part:hover {
+background-color: rgb(6, 6, 81);
+transform: scale(1.1);
+}
+.map {
+  color: white;
+  padding: 10px 450px;
+}
+.list {
+  background-color: chartreuse;
+  color: white;
+  margin: 50px 500px;
+}
+.form {
+  background-color: rgb(3, 48, 3);
+  color: white;
+  text-align: center;
+  margin: 20px 300px;
+}
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: white;
+}
+.footer {
+  color: white;
+  background-color: darkgreen;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
