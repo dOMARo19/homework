@@ -76,8 +76,9 @@ fieldset {
   width: 400px
 }
 input {
-  width: calc(100%-12);
-  padding 10px 20px; 
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px; 
 }
 .pictures {
   display: flex;
