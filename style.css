@@ -69,7 +69,19 @@ transform: scale(1.1);
   background-color: rgb(3, 48, 3);
   color: white;
   text-align: center;
-  margin: 20px 300px;
+  margin: 0 auto;
+  width: 500px
+}
+fieldset {
+  margin: 20px 0;
+  background-color: #00000007;
+}
+.action,
+.area,
+.selectlist,
+.uniform-border {
+  width: 100%;
+  padding: 0.75em 1.5em;
 }
 .pictures {
   display: flex;
