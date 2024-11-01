@@ -83,6 +83,19 @@ fieldset {
   width: 100%;
   padding: 0.75em 1.5em;
 }
+input [type="file"] {
+padding: o;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}
+.area {
+  min-height: 100px;
+  max-height: 33vh;
+  resize: vertical;
+}
+
 .pictures {
   display: flex;
   flex-wrap: wrap;
