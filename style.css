@@ -82,6 +82,10 @@ input {
   width: 100%;
   padding: 10px 20px; 
 }
+.label {
+  margin-bottom: 1em;
+  display: block;
+}
 .uniform-border {
   margin-top: 5em;
   margin-bottom: 5em;
