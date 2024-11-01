@@ -90,6 +90,9 @@ input {
   margin-top: 5em;
   margin-bottom: 5em;
 }
+.area {
+  resize: vertical;
+}
 .pictures {
   display: flex;
   flex-wrap: wrap;
