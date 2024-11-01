@@ -73,43 +73,11 @@ transform: scale(1.1);
   width: 500px
 }
 fieldset {
-  margin: 20px 0;
-  background-color: #00000007;
+  width: 400px
 }
-.action,
-.area,
-.selectlist,
-.comments {
-  width: 100% - 12px;
-  padding: 0.75em 1.5em;
-}
-input [type="file"] {
-padding: o;
-}
-input[type="radio"],
-input[type="checkbox"] {
-  width: auto;
-}
-.area {
-  min-height: 100px;
-  max-height: 33vh;
-  resize: vertical;
-}
-.uniform-border {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-.form-group-sm {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-}
-.form-label {
-  margin-bottom: 0.5em;
-  display: block;
-}
-.flex-container {
-  display: flex;
-  gap: 20px;
+input {
+  width: calc(100%-12);
+  padding 10px 20px; 
 }
 .pictures {
   display: flex;
