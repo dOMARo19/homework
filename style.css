@@ -73,7 +73,8 @@ transform: scale(1.1);
   color: white;
   text-align: center;
   margin: 0 auto;
-  width: 400px
+  width: 400px;
+  height: 10px;
 }
 fieldset {
   width: 400px
