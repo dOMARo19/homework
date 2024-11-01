@@ -79,7 +79,6 @@ fieldset {
 .action,
 .area,
 .selectlist,
-.uniform-border,
 .comments {
   width: 100%;
   padding: 0.75em 1.5em;
@@ -96,7 +95,22 @@ input[type="checkbox"] {
   max-height: 33vh;
   resize: vertical;
 }
-
+.uniform-border {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.form-group-sm {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.form-label {
+  margin-bottom: 0.5em;
+  display: block;
+}
+.flex-container {
+  display: flex;
+  gap: 20px;
+}
 .pictures {
   display: flex;
   flex-wrap: wrap;
