@@ -68,13 +68,13 @@ transform: scale(1.1);
 * {
   box-sizing: border-box;
 }
-.form {
+/* .form {
   background-color: rgb(3, 48, 3);
   color: white;
   text-align: center;
   margin: 0 auto;
-  width: 400px;
-}
+  width: 400px; */
+
 fieldset {
   width: 400px
 }
