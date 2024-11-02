@@ -122,6 +122,11 @@ transform: scale(1.1);
 .figure-link:hover {
   transform: scale(1.1) translateY(-3px); 
 }
+.text {
+    font-family: "Prociono", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 .footer {
   color: white;
   background-color: darkgreen;
