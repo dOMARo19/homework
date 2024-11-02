@@ -96,10 +96,26 @@ transform: scale(1.1);
   resize: vertical;
 }
 .pictures {
+  color: white;
+}
+.flex-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  color: white;
+  align-items: flex-end;
+  gap: 20px;
+}
+.figure {
+  flex-basis: 25%;
+  flex-grow: 1;
+  margin: 0;
+}
+.figure-image {
+  width: 100%;
+  object-fit: cover;
+}
+.figure-link {
+  display: flex;
+  height: 200px;
 }
 .footer {
   color: white;
