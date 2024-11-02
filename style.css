@@ -78,13 +78,14 @@ transform: scale(1.1);
  fieldset {
   width: 400px
 } 
-input {
+/* input {
   width: 100%;
   padding: 10px 10px; 
-}
-/* .label {
+} */
+.label {
   margin-bottom: 1em;
-  display: block; */
+  display: block;
+}
 
 .uniform-border {
   margin-top: 5em;
