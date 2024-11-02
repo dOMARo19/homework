@@ -78,19 +78,19 @@ transform: scale(1.1);
  fieldset {
   width: 400px
 } 
-/* input {
+ input {
   width: 100%;
   padding: 10px 10px; 
-} */
+} 
 .label {
   margin-bottom: 1em;
   display: block;
 }
 
-.uniform-border {
+/* .uniform-border {
   margin-top: 5em;
   margin-bottom: 5em;
-}
+} */
 .area {
   resize: vertical;
 }
