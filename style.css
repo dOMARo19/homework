@@ -76,7 +76,9 @@ transform: scale(1.1);
   width: 400px; */
 }
  fieldset {
-  width: 400px
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 } 
  input {
   width: 100%;
